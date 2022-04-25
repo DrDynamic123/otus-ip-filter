@@ -5,7 +5,7 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(ip_filter VERSION ${PROJECT_VESRION})
 
-add_executable(ip_filter ip_filter.cpp)
+add_executable(ip_filter main.cpp)
 
 set_target_properties(ip_filter PROPERTIES
     CXX_STANDARD 14
